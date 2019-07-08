@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5a72e8b64b583",
+        "Name": "RR073 - Waste collection day informed on submission for somebody else",
+        "Type": "EMAIL",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "RubbishRecycling",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"subject\":\"Waste healthcare collection date\",\"fromName\":\"{NoReplyEmail_N}\",\"from\":\"{NoReplyEmail} \",\"recipients_to\":\"{personalEmail}\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"\",\"body\":\"<div style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt; white-space: pre-wrap;\\\">\\n<p>Dear {full},</p>\\n<div></div>\\n<p>The healthcare collection for {fullNameOther} starts on {chooseTheDate}.</p>\\n<div></div>\\n<p>The collection can take place anytime from 07:00 hours.</p>\\n<div></div>\\n<p>Please ensure their boxes are closed, and that their postcode is marked on each box. If the boxes are not closed or the postcode marked on them, this may mean the boxes are not collected.</p>\\n<div></div>\\n<p>If the collection of the boxes is not required, please call us on 023 9284 1105 by 12:00 hours on the day before collection.</p>\\n<div></div>\\n<p>This is an automated response; please do not reply to this email.</p>\\n<div></div>\\n<p>Yours sincerely</p>\\n<p>Portsmouth City Council</p>\\n</div>\",\"attachments\":\"\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"Daniela.Dutu@portsmouthcc.gov.uk\"}"
+    }
+]
